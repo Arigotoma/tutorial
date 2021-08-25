@@ -1,8 +1,9 @@
 version: '0.1.0'
 config:
   testRunner:
-    command: ./node_modules/.bin/mocha
+    command: npm run test --
     args:
+      filter: --grep
       tap: --reporter=mocha-tap-reporter
     directory: coderoad
   setup:
