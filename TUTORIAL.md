@@ -68,14 +68,26 @@
 является интерфейс взаимодействия.
 Одним из таких инструментов является библиотека **React.js**.
 
+**Первое приложение**
+
+Что нужно для начала работы с React
+
 ### 1.1 Level 1 Step 1
 
-This is the test text. Create an `index.html` file to pass this lesson.
+Необходимо установить последнюю LTS версию [Node.js]
 
 #### HINTS
 
 - This is a hint to help people through the test
 - Second hint for 1.1, don't worry if the hints don't show up yet
+
+### 1.1 Level 1 Step 2
+
+Создаем приложение React. Запустим в консоли следующую команду:
+
+```bash
+npx create-react-app my-app
+```
 
 ## 2. Add DOCTYPE
 
