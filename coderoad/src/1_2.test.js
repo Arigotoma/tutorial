@@ -18,8 +18,3 @@ test('Ожидание инициализации приложения', async (
   const rootDir = await getDir('..');
   assert(rootDir.indexOf('my-app') >= 0);
 });
-
-test('Ожидание окончания инициализации приложения', async () => {
-  const appDir = await getDir('../my-app/src');
-  assert(appDir.indexOf('index.css') >= 0);
-});
