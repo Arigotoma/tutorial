@@ -81,12 +81,33 @@
 - This is a hint to help people through the test
 - Second hint for 1.1, don't worry if the hints don't show up yet
 
-### 1.1 Level 1 Step 2
+### 1.2 Level 1 Step 2
 
 Создаем приложение React. Запустим в консоли следующую команду:
 
 ```bash
 npx create-react-app my-app
+```
+
+### 1.3 Level 1 Step 3
+
+Заходим в папку приложения
+
+```bash
+cd my-app
+```
+
+Удаляем в папке **/src** все файлы и создаем index.tsx
+Сделаем "Hello World"
+
+```tsx
+// index.tsx
+import ReactDOM from 'react-dom';
+
+ReactDOM.render(
+  <h1>Привет, мир!</h1>,
+  document.getElementById('root')
+);
 ```
 
 ## 2. Add DOCTYPE

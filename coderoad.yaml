@@ -11,7 +11,7 @@ config:
       - cd coderoad && npm install
   repo:
     uri: https://github.com/Arigotoma/tutorial.git
-    branch: v0.1.0
+    branch: 1.1.1
   dependencies:
     - name: node
       version: '>=10'
@@ -20,6 +20,7 @@ levels:
     steps:
       - id: '1.1'
       - id: '1.2'
+      - id: '1.3'
   - id: '2'
     steps:
       - id: '2.1'
