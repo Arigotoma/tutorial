@@ -21,10 +21,6 @@ beforeEach(async () => {
   dir = await getDir();
 });
 
-test('files deleted', async () => {
-  assert(dir.length <= 1);
-});
-
 test('index.tsx created', async () => {
   assert(dir.indexOf('index.tsx') >= 0);
 });
