@@ -86,7 +86,7 @@
 Создаем приложение React. Запустим в консоли следующую команду:
 
 ```bash
-npx create-react-app my-app
+npx create-react-app my-app --template typescript
 ```
 
 ### 1.3 Level 1 Step 3
